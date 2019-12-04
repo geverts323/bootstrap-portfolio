@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geverts323/bootstrap-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geverts323/bootstrap-portfolio/issues"
+  },
+  "homepage": "https://github.com/geverts323/bootstrap-portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "lite-server": "^2.5.4",
+    "popper": "^1.0.1"
+  }
+}
