@@ -1,9 +1,9 @@
 body {
-    font-family: "Calistoga", cursive;
+    font-family: "Acme", cursive;
 }
 
 h1, h2, h3 {
-    font-family: "Monoton", cursive;
+    font-family: "Calistoga", cursive;
     color: #8b0000;
     font-weight: bolder;
     font-size: 2em;
