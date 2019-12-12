@@ -1,0 +1,28 @@
+body {
+    font-family: "Acme", cursive;
+    /* background-color: #d19136; */
+    color: black;
+}
+
+h1, h2, h3 {
+    font-family: "Calistoga", cursive;
+    font-weight: bolder;
+    font-size: 2em;
+    color: black;
+}
+
+h1 {
+    font-size: 3em;
+     color: #8b0000;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: url("/img/seamless_wood3.jpg");
+    background-color: #cccccc;
+    margin: 0;
+}
+
+nav {
+    background-color: #b8551c;
+}

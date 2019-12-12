@@ -1,21 +1,25 @@
 body {
-    font-family: "Acme", cursive;
-}
+  font-family: "Acme", cursive;
+  color: black; }
 
 h1, h2, h3 {
-    font-family: "Calistoga", cursive;
-    color: #8b0000;
-    font-weight: bolder;
-    font-size: 2em;
-}
+  font-family: "Calistoga", cursive;
+  font-weight: bolder;
+  font-size: 2em;
+  color: black; }
 
 h1 {
-    font-size: 3em;
-}
+  font-size: 3em;
+  color: #8b0000; }
 
 .jumbotron {
-    padding: 30px;
-    background-image: url("/img/seamless_wood3.jpg");
-    background-color: #cccccc;
-    margin: 0;
-}
+  padding: 30px;
+  background-image: url("/img/seamless_wood3.jpg");
+  background-color: white;
+  margin: 0; }
+
+nav {
+  background-color: #b8551c; }
+
+.home_img {
+  height: 12em; }

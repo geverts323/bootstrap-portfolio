@@ -1,0 +1,35 @@
+$title-red: #8b0000;
+$detail-dark-orange: #b8551c;
+$background-orange: #d19136;
+
+body {
+    font-family: "Acme", cursive;
+    color: black;
+}
+
+h1, h2, h3 {
+    font-family: "Calistoga", cursive;
+    font-weight: bolder;
+    font-size: 2em;
+    color: black;
+}
+
+h1 {
+    font-size: 3em;
+     color: $title-red;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: url("/img/seamless_wood3.jpg");
+    background-color: white;
+    margin: 0;
+}
+
+nav {
+    background-color: $detail-dark-orange;
+}
+
+.home_img {
+    height: 12em;
+}
