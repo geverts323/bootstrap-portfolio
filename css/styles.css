@@ -1,6 +1,7 @@
 body {
   font-family: "Acme", cursive;
-  color: black; }
+  color: black;
+  background-image: url("/img/seamless_wood3.jpg"); }
 
 h1, h2, h3 {
   font-family: "Calistoga", cursive;
@@ -8,18 +9,56 @@ h1, h2, h3 {
   font-size: 2em;
   color: black; }
 
-h1 {
-  font-size: 3em;
-  color: #8b0000; }
+header h1 {
+  font-size: 4em;
+  color: #cc915a; }
+
+hr {
+  border: 1px solid black; }
+
+.section-header h1 {
+  font-size: 3em; }
 
 .jumbotron {
   padding: 30px;
-  background-image: url("/img/seamless_wood3.jpg");
-  background-color: white;
+  background-color: #613c19;
   margin: 0; }
 
 nav {
   background-color: #b8551c; }
 
 .home_img {
-  height: 12em; }
+  height: 10em;
+  margin-right: 2em; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel-caption h3 {
+  color: white; }
+
+.media-body p {
+  background-color: rgba(218, 193, 139, 0.5);
+  padding: 1em; }
+
+.carousel-style {
+  margin: 1em; }
+
+.section-header {
+  margin: 20px; }
+
+.media-style {
+  margin-bottom: 2em; }
+
+#contact-footer {
+  background-color: rgba(8, 8, 8, 0.5);
+  color: white;
+  padding-top: 2em; }
+  #contact-footer a {
+    color: cornflowerblue; }
+
+#drinkMenu {
+  display: none; }
+
+.table-dark {
+  background-color: rgba(61, 38, 4, 0.5); }

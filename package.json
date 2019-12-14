@@ -10,7 +10,7 @@
     "scss": "node-sass -o css/ css/",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* -o dist/img",
-    "clean": "rimraf dist",    
+    "clean": "rimraf dist",
     "usemin": "usemin index.html -d dist -o dist/index.html",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
@@ -31,7 +31,8 @@
     "jquery": "^3.4.1",
     "lite-server": "^2.5.4",
     "popper": "^1.0.1",
-    "popper.js": "^1.16.0"
+    "popper.js": "^1.16.0",
+    "scss": "^0.2.4"
   },
   "devDependencies": {
     "copyfiles": "^2.0.0",

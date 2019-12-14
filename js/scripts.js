@@ -1,14 +1,30 @@
-// $(function () {
-//     $(".carousel").carousel({ interval: 2000 });
-//     $("#carouselButton").click(function () {
-//         if ($("#carouselButton").children("i").hasClass("fa-pause")) {
-//             $(".carousel").carousel("pause");
-//             $("#carouselButton").children("i").removeClass("fa-pause");
-//             $("#carouselButton").children("i").addClass("fa-play");
-//         } else {
-//             $(".carousel").carousel("cycle");
-//             $("#carouselButton").children("i").removeClass("fa-play");
-//             $("#carouselButton").children("i").addClass("fa-pause");
-//         }
-//     });
-// });
+$(function() {
+    for (i in gamesObj) {
+        let tableRow = "<tr id='" + gamesObj[i]["elemId"] + "'>" + 
+            "<td scope='row'>" + gamesObj[i]["name"] + "</td>" + 
+            "<td>" + gamesObj[i]["quantity"] + "</td>" + 
+            "<td>" + gamesObj[i]["numPlayers"] + "</td>" + 
+            "<td>" + gamesObj[i]["description"] + "</td>" + 
+            "</tr>";
+        $("#gameMenuBody").append(tableRow);
+    }
+    for (j in drinksObj) {
+        let menuRow = "<tr id='" + drinksObj[j]["elemId"] + "'>" + 
+            "<td scope='row'>" + drinksObj[j]["name"] + "</td>" +
+            "<td>" + drinksObj[j]["ingredients"] + "</td>" +
+            "<td>" + drinksObj[j]["price"] + "</td>" + "</tr>";
+            $("#drinkMenuBody").append(menuRow);
+    }
+    $("#showGames").click(function(){ 
+        $("#gameMenu").show();
+        $("#drinkMenu").hide();
+    });
+    $("#showDrinks").click(function(){
+        $("#drinkMenu").show();
+        $("#gameMenu").hide();
+    });
+    $("#reserveButton").click(function () {
+        $("#reserveModal").modal('toggle');
+    });
+});
+
